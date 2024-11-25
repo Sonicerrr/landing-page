@@ -22,11 +22,18 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 24px;
 }
 
 ul {
     list-style: none;
     display: flex;
+    align-items: center;
     margin: 0px;
     padding: 0px;
     gap: 15px;
@@ -34,4 +41,6 @@ ul {
 
 a {
     text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
 }

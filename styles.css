@@ -105,8 +105,49 @@ button {
     width: 200px;
     height: 200px;
     border: 2px solid #3882f6;
+    border-radius: 14px;
 }
 
 .caption {
     width: 200px;
+}
+
+.quote {
+    padding: 5% 10%;
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: light italic;
+}
+
+.quote_text {
+    display: flex;
+    max-width: 70%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.actual_quote {
+    margin-bottom: 0px;
+    padding: 0;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author_name {
+    font-weight: 900;
+    font-size: 24px;
+    color: #1f2937;
+    align-self: flex-end;
+}
+
+.footer {
+    padding: 0 10%;
 }

@@ -7,13 +7,15 @@
 body {
     padding: 0px;
     margin: 0px;
+    
 }
 .header {
     display: flex;
     flex-direction: column;
-    padding: 0px 10%;
+    padding: 0px 10% 50px;
     background-color: #1f2937;
     margin: 0px;
+   
 }
 
 .head {
@@ -21,6 +23,28 @@ body {
     justify-content: space-between;
     width: 100%;
     
+}
+
+.head_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    max-width: 100%;
+    max-height: auto;
+    padding: 50px 0;
+}
+
+.img_dog {
+    flex: 0 1 1;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.img_dog img {
+    max-width: 100%;
+    height: auto;
 }
 
 h1 {
@@ -58,7 +82,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: ;
+   
     padding: 0 10%;
 }
 

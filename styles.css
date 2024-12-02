@@ -118,6 +118,12 @@ h3 {
 
 }
 
+.block img {
+    border-radius: inherit;
+    width: 200px;
+    height: 200px;
+}
+
 .square {
     width: 200px;
     height: 200px;

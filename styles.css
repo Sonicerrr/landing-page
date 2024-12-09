@@ -90,6 +90,11 @@ button {
     height: 42px;
 }
 
+button:hover {
+    background-color: rgb(238, 239, 241);
+    color: #5e07ff;
+}
+
 .content {
     display: flex;
     flex-direction: column;
@@ -106,6 +111,7 @@ h3 {
 .blocks {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     width: 100%;
     gap: a50px;
 }
